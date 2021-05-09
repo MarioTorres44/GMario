@@ -2,9 +2,9 @@ package proMario;
 
 public class HolaMundo {
 	
-	int sumar (int a , int b )
+	int restar (int a, int b)
 	{
-		return a + b;
+		return a - b ;
 	}
 
 	public static void main(String[] args) {
@@ -15,4 +15,5 @@ public class HolaMundo {
 		System.out.println("3 Cambio");
 		System.out.println("Cuarto cambio por el Primer Usuario");
 	}
+
 }
